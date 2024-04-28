@@ -2,41 +2,46 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
+.para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
+/* Removed grouping with small-para */
 
-.small-para {
+.para.small-para {
   font-size: 14px;
-  font-weight: 800;
 }
+/* Added .para chain, removed font-weight */
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
+  font-size: 20px;
 } 
+/* Added -button suffix, replaced . with #, added font-size */
 
-.button {
+#cancel-button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+/* Added cancel- prefix */
 
-.child {
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
+/* Added .text, created nesting/descendant */
 
-div.text {
+.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+/* Removed div. */
