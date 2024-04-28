@@ -2,16 +2,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para {
+.para,
+.small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
-/* Removed grouping with small-para */
 
-.para.small-para {
+p.small-para {
   font-size: 14px;
 }
-/* Added .para chain, removed font-weight */
+/* Added p type indicator, removed font-weight */
 
 .para {
   font-size: 22px;
@@ -21,27 +21,24 @@ body {
   background: green;
   color: white;
   font-weight: bold;
-  font-size: 20px;
 } 
-/* Added -button suffix, replaced . with #, added font-size */
+/* Added #confirm id indicator */
 
-#cancel-button {
+.button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-/* Added cancel- prefix */
 
 .text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
-/* Added .text, created nesting/descendant */
+/* Added .text class indicator */
 
-.text {
+div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
-/* Removed div. */
