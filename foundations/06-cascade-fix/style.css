@@ -35,7 +35,7 @@ p.small-para {
   font-weight: 800;
   font-size: 14px;
 }
-/* Added .text class indicator */
+/* Added .text class indicator, created descendant node */
 
 div.text {
   color: rgb(0, 0, 0);
