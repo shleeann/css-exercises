@@ -1,6 +1,19 @@
+* {
+  outline: 1px solid red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header  {
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 .logo {
@@ -8,12 +21,16 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 10px 30px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
 }
 
 a {
